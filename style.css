@@ -14,6 +14,7 @@ h1 {
 
 .padding7-15 {padding: 7% 15%;}
 .padding15 {padding: 15%;}
+.row.padding7-15 {padding-top: 5%;}
 
 .box {
     background-color: brown;
@@ -27,6 +28,27 @@ h1 {
     background-color: #c4a3c2;
     width: 20px;
     height: 20px;
-    margin: 30%;
+    margin: 10px;
     border-radius: 100%;
 }
+.click {background-color: #460d7c;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+
+.position1 {position: relative;}
+.position2 {position: relative;}
+.a0new {
+    position: absolute;
+    top: 30px;
+    left: 45px;
+}
+.a2new {
+    position: absolute;
+    top: 60px;
+}
+
