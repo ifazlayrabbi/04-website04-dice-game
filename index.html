@@ -12,15 +12,19 @@
 </head>
 <body>
     <section class="padding7-15">
-        <h1>Refresh Me!</h1>
-        <button class="click" type="button" onclick="location.reload()">Toss</button>
+        <h1>Dice Game!</h1>
+        <!-- <button class="clickButton" type="button">Toss</button> -->
+        <!-- onclick="location.reload()" -->
+        <button class="clickButton" type="button" onclick="clickBut()">Toss</button>
+        <!-- <input class="clickButton" type="button" onclick="clickBut()" value="Toss"> -->
+        <h2 id="winner"></h2>
     </section>
     <section>
         <div class="row padding7-15">
             <div class="col">
                 <h2>Player 1</h2>
                 <div class="box">
-                    <div class="row padding15">
+                    <div class="row pad-dot">
                         <div class="col position1">
                             <div class="box2 a0"></div>
                             <div class="box2 a1"></div>
@@ -37,7 +41,7 @@
             <div class="col">
                 <h2>Player 2</h2>
                 <div class="box">
-                    <div class="row padding15">
+                    <div class="row pad-dot">
                         <div class="col position2">
                             <div class="box2 b0"></div>
                             <div class="box2 b1"></div>

@@ -11,15 +11,22 @@ h1 {
     font-size: 58px;
 }
 
+#winner {margin-top: 3%;}
 
-.padding7-15 {padding: 7% 15%;}
+.padding7-15 {padding: 5% 15%;}
 .padding15 {padding: 15%;}
-.row.padding7-15 {padding-top: 5%;}
+.row.padding7-15 {padding-top: 4%;}
+.pad-dot {padding: 6%}
+
+@media (max-width: 750px){
+    .row.padding7-15 {padding-top: 10%;}
+    #winner {margin-top: 5%}
+}
 
 .box {
     background-color: brown;
-    width:150px;
-    height: 150px;
+    width:120px;
+    height: 120px;
     display: inline-block;
     margin-top: 10%;
     border-radius: 20%;
@@ -31,7 +38,7 @@ h1 {
     margin: 10px;
     border-radius: 100%;
 }
-.click {background-color: #460d7c;
+.clickButton {background-color: #460d7c;
     color: white;
     font-weight: bold;
     width: 100px;
