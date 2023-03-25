@@ -5,6 +5,10 @@
 // document.querySelector('.clickButton').addEventListener('click', clickBut)
 
 function clickBut(){
+
+    let sound = new Audio('sounds/Dice-Roll.mp3')
+    sound.play()
+
     let player1 = Math.ceil(Math.random()*5)
     console.log('player1: '+ player1)
     
